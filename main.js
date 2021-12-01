@@ -1,3 +1,3 @@
-const logString = (string) => {
-    console.log(string);
-}
+import { logString } from "./modules.js";
+
+logString("hello world");
